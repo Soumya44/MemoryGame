@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -72,6 +73,7 @@ h1 {
 
 
 /*Score Panel*/
+
 .score-panel {
     text-align: left;
     width: 625px;
@@ -148,13 +150,28 @@ p.success {
 }
 
 .star {
-     display: inline;
+    display: inline;
     margin: 2px;
 }
 
 .text-right {
     float: right;
 }
+
 .margin-top-2 {
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 420px) {
+    .deck {
+        width: 380px;
+        min-height: 400px;
+        height: 470px;
+    }
+    .deck .card {
+        width: 70px;
+        height: 70px;
+    }
+    .score-panel {
+        width: 360px;
+    }
