@@ -8,3 +8,6 @@
 
 <h3 align=center>Screenshots</h3>
 <img align=center src="./img/screenshot.png">
+<br>
+<br>
+<h3 align=center><b>Made with :sparkling_heart: by <a href="https://linkedin.com/in/soumya-ranjan-behera-989a2a151/">Soumya</b></h3>
