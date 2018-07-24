@@ -40,7 +40,7 @@ function shuffle(array) {
     return array;
 }
 //keep track of open cards
-openCards = [];
+let openCards = [];
 
 // card functionality
 function toggleCard() {
@@ -145,6 +145,7 @@ function resetGame() {
     game_started=false;
     timer.stop();
     $('#timer').html("00:00:00");
+    openCards = [];
     play();
 }
 // Init function
